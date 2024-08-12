@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Fibonacci series </title> </head>
+<body>
+<h1> Fibonacci Series </h1>
+<script>
+var n,a,b,c,i;
+n= prompt ("Enter the range", 0);
+a=0;
+b=1;
+for(i=1;i<=n;i++)
+{
+document.write(a + "<br>");
+c=a+b;
+a=b;
+b=c;
+}
+</script>
+</body> </html>
+
+//2a2
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "//http://www.w3.org/TR/xhtml/11/DTD/xhtml11.DTD"> <<html xmlns="www.w3.org/tr/xhtml/1999/xhtml1.dtd">
+<head><title> Squares series </title> </head>
+<body>
+<h1> <center> <b> To Generate TABLE of 1 to N numbers And Their Squares </b> </center> </h1>
+<script type="text/javascript">
+var i,j,k,n,pro, str;
+n=prompt ("Enter the range", 0);
+for (k=1; k<=n; k++)
+{
+str="";
+for (i=1;i<=10;i++)
+{
+j=Math.pow(pro, 2);
+pro=k*i;
+str += k+ " " + i +
++ pro +
+j+"\n";
+}
+alert(str);
+}
+</script>
+</body> </html>
+
+//2b
+<? xml version="1.0" encoding="ut£-8"?>
+
+<! DOCTYPE HTML PUBLIC "-//w3c//DTD xHTML 1.1//EN"
+"//http://www.w3.org/TR/xhtml/11/DTD/xhtml 11.DTD">
+<html xmlns="www.w3.org/tr/xhtm1/1999/xhtml1.dtd">
+
+<head>
+<title>Random Number Generation </title>
+</head>
+
+<body>
+<h2 style='color:red'>The Random Number generated is : </h2>
+
+<script type="text/javascript" >
+document.write (Math.floor ((Math.random() *10)+1));
+</script>
+
+</body>
+</html>
